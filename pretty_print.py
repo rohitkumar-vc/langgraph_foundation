@@ -1,7 +1,7 @@
 from typing import List
 from langchain_core.messages import BaseMessage
 
-def print_langchain_messages(messages: List[BaseMessage], width: int = 80):
+def     print_langchain_messages(messages: List[BaseMessage], width: int = 80):
     """
     Takes a list of LangChain BaseMessage objects and prints them in a formatted terminal style.
     """
